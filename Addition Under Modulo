@@ -1,0 +1,8 @@
+long long sumUnderModulo(long long a,long long b)
+{
+    int M=1000000007;int ans;
+    //long long sum= a+b;
+    ans= ((a%M+b%M)%M);
+    return ans;
+    //your code here
+}
